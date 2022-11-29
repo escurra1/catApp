@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListCatTableViewCell" rowHeight="241" id="KGk-i7-Jjw" customClass="ListCatTableViewCell" customModule="CatApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="241"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="241"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RPY-os-Qti" customClass="View">
+                        <rect key="frame" x="10" y="10" width="300" height="221"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCt-HX-n4q" userLabel="ViewWidgest">
+                                <rect key="frame" x="5" y="6" width="290" height="209"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raza: Pitbull" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z7s-W0-Obk">
+                                        <rect key="frame" x="10" y="15" width="270" height="18"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="13"/>
+                                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País de Origen: Perú" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agd-y6-q9h">
+                                        <rect key="frame" x="20" y="153" width="260" height="16.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inteligencia: Bueno" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gp8-nc-deE">
+                                        <rect key="frame" x="20" y="179.66666666666666" width="260" height="16.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="12"/>
+                                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pmy-qk-ub8">
+                                        <rect key="frame" x="80" y="43" width="130" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="V9H-P4-jwI"/>
+                                            <constraint firstAttribute="width" constant="130" id="bii-ev-RtH"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Agd-y6-q9h" firstAttribute="top" secondItem="pmy-qk-ub8" secondAttribute="bottom" constant="10" id="3xo-Bi-Lvt"/>
+                                    <constraint firstItem="z7s-W0-Obk" firstAttribute="top" secondItem="DCt-HX-n4q" secondAttribute="top" constant="15" id="LN8-c5-tfX"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gp8-nc-deE" secondAttribute="trailing" constant="10" id="Ly4-1q-Mdu"/>
+                                    <constraint firstItem="Gp8-nc-deE" firstAttribute="top" secondItem="Agd-y6-q9h" secondAttribute="bottom" constant="10" id="PRs-r5-dud"/>
+                                    <constraint firstItem="Gp8-nc-deE" firstAttribute="leading" secondItem="DCt-HX-n4q" secondAttribute="leading" constant="20" id="SZc-Nb-UGh"/>
+                                    <constraint firstItem="z7s-W0-Obk" firstAttribute="leading" secondItem="DCt-HX-n4q" secondAttribute="leading" constant="10" id="Sjj-rc-AX5"/>
+                                    <constraint firstAttribute="trailing" secondItem="z7s-W0-Obk" secondAttribute="trailing" constant="10" id="f5D-0e-e0r"/>
+                                    <constraint firstItem="pmy-qk-ub8" firstAttribute="centerX" secondItem="DCt-HX-n4q" secondAttribute="centerX" id="l5q-7w-boF"/>
+                                    <constraint firstItem="Agd-y6-q9h" firstAttribute="leading" secondItem="DCt-HX-n4q" secondAttribute="leading" constant="20" id="o6D-jL-p2h"/>
+                                    <constraint firstAttribute="trailing" secondItem="Agd-y6-q9h" secondAttribute="trailing" constant="10" id="x3X-dh-Sry"/>
+                                    <constraint firstItem="pmy-qk-ub8" firstAttribute="top" secondItem="z7s-W0-Obk" secondAttribute="bottom" constant="10" id="zu0-wg-R3U"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="DCt-HX-n4q" secondAttribute="bottom" constant="6" id="3uE-R3-7Ko"/>
+                            <constraint firstItem="DCt-HX-n4q" firstAttribute="top" secondItem="RPY-os-Qti" secondAttribute="top" constant="6" id="QTy-XN-TLo"/>
+                            <constraint firstAttribute="trailing" secondItem="DCt-HX-n4q" secondAttribute="trailing" constant="5" id="hIl-pX-edS"/>
+                            <constraint firstItem="DCt-HX-n4q" firstAttribute="leading" secondItem="RPY-os-Qti" secondAttribute="leading" constant="5" id="kWL-Qj-EiL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RPY-os-Qti" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="9Q2-Om-ar4"/>
+                    <constraint firstAttribute="trailing" secondItem="RPY-os-Qti" secondAttribute="trailing" constant="10" id="Eee-Za-Pyz"/>
+                    <constraint firstItem="RPY-os-Qti" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="FTh-KZ-9b9"/>
+                    <constraint firstAttribute="bottom" secondItem="RPY-os-Qti" secondAttribute="bottom" constant="10" id="eck-L7-gk1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="countryCatLabel" destination="Agd-y6-q9h" id="fX6-TS-gJh"/>
+                <outlet property="iconCatImageView" destination="pmy-qk-ub8" id="AxU-fV-aP4"/>
+                <outlet property="intelligenceCatLabel" destination="Gp8-nc-deE" id="iSJ-Wc-t2q"/>
+                <outlet property="nameCatLabel" destination="z7s-W0-Obk" id="mLn-UJ-Ydy"/>
+                <outlet property="viewContent" destination="DCt-HX-n4q" id="sTr-kk-KsL"/>
+            </connections>
+            <point key="canvasLocation" x="-35.384615384615387" y="90.639810426540279"/>
+        </tableViewCell>
+    </objects>
+</document>

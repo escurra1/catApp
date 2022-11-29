@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  CatApp
+
+  Created by Escurra Colquis on 29/11/22.
+  
+*/
+
+"accept" = "Aceptar";
+"successData" = "¡Cargado exitoso.!";
+"refreshData" = "Refrescando datos...";
+"loadData" = "Cargando";
+"pleaseWait" = "espere por favor...";
+"nameCat" = "Nombre de Raza: ";
+"countryCat" = "País de origen: ";
+"intelligenceCat" = "Inteligencia: ";

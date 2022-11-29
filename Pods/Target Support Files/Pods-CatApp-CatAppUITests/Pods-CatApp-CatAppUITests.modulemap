@@ -1,0 +1,6 @@
+framework module Pods_CatApp_CatAppUITests {
+  umbrella header "Pods-CatApp-CatAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
